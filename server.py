@@ -5,19 +5,21 @@ import time
 HOST = ''
 PORT = 44444
 
+
 def logging(address, data=''):
     c = time.ctime()
-    with open('netowrk.log','a') as s:
+    with open('netowrk.log', 'a') as s:
         p = "time:{} {}:{} , data:{}\n".format(c, address[0], address[1], data)
         s.write(p)
+
 
 def main():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        try :
-            s.bind((HOST,PORT))
+        try:
+            s.bind((HOST, PORT))
             s.listen(100)
-        except:
+        except BaseException:
             s.listen(100)
         while True:
             (conn, address) = s.accept()
@@ -31,7 +33,7 @@ def main():
                         conn.close()
                         s.close()
                         main()
-                    #conn.sendall(data)
+                    # conn.sendall(data)
                     #print('Received : ', repr(data))
                     logging(address, data)
                     conn.sendall(b'Bye!')
@@ -39,11 +41,12 @@ def main():
                     s.close()
                     main()
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     try:
         main()
     except KeyboardInterrupt:
-        print ('Bye!')
+        print('Bye!')
         exit(0)
     except BaseException as e:
         print('Error: {0}'.format(str(e)))
