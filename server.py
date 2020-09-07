@@ -3,7 +3,7 @@ import http.server
 import socketserver
 
 HOST = ''
-PORT = 8080
+port = 8080
 
 class myHandler(http.server.BaseHTTPRequestHandler):
     
