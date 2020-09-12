@@ -1,7 +1,0 @@
-time:Sun Sep  6 15:35:56 2020 127.0.0.1:53128 , data:b"aman';ls"
-time:Sun Sep  6 15:36:44 2020 127.0.0.1:53136 , data:b'hello server!'
-time:Sun Sep  6 15:36:57 2020 127.0.0.1:53140 , data:b'GET / HTTP/1.1\r\nHost: 127.0.0.1:44444\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nCache-Control: max-age=0\r\n\r\n'
-time:Sun Sep  6 15:36:57 2020 127.0.0.1:53141 , data:b'GET /favicon.ico HTTP/1.1\r\nHost: 127.0.0.1:44444\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0\r\nAccept: image/webp,*/*\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\n\r\n'
-time:Mon Sep  7 16:57:25 2020 127.0.0.1:60938 , data:b'hello server!'
-time:Mon Sep  7 16:57:29 2020 127.0.0.1:60940 , data:b'hello server!'
-time:Mon Sep  7 16:57:30 2020 127.0.0.1:60942 , data:b'hello server!'
