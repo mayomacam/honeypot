@@ -1,14 +1,4 @@
-"""
-Simple TCP Honeypot logger:
-
-Usage: honeypot <config_file_path>
-
-"""
-from docopt import docopt
-
-args = docopt(__doc__)
-
-print("Config file: %s",args["<config_file_path>"])
-
-
- 
+class Honeypot:
+    def __init__(self, ports):
+        for port in ports:
+            print("Will be listening on %s" % port)
