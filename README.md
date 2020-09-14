@@ -1,2 +1,0 @@
-# honeypot
-Minor-project
