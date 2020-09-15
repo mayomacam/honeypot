@@ -1,0 +1,72 @@
+2020-09-15 17:15:1600170307 INFO     Honeypot running on Ports [8080] 
+ logfile is connections.log
+2020-09-15 17:17:1600170450 INFO     Honeypot running on Ports [8080] 
+ logfile is connections.log
+2020-09-15 18:01:1600173108 INFO     Honeypot running on Ports [8080] 
+ logfile is connections.log
+2020-09-15 18:02:1600173133 INFO     Honeypot running on Ports [8080] 
+ logfile is connections.log
+2020-09-15 18:02:1600173141 INFO     Honeypot running on Ports [8080] 
+ logfile is connections.log
+2020-09-15 18:02:1600173155 INFO     Honeypot running on Ports [8080] 
+ logfile is connections.log
+2020-09-15 18:03:1600173210 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:05:1600173312 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:05:1600173338 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:06:1600173388 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:07:1600173459 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:09:1600173562 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:09:1600173597 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:10:1600173610 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:10:1600173648 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:11:1600173664 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:13:1600173835 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:14:1600173861 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:17:1600174065 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:21:1600174279 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:21:1600174292 INFO     Connection Recieved : 8080,127.0.0.1, 57770
+2020-09-15 18:23:1600174387 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:23:1600174402 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:23:1600174409 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:23:1600174417 INFO     Connection Recieved : 8080,127.0.0.1, 57780
+2020-09-15 18:24:1600174496 INFO     Connection Recieved : 8080,127.0.0.1, 57806
+2020-09-15 18:24:1600174497 INFO     Data recieved : 8080, 127.0.0.1, 57806, b''
+2020-09-15 18:24:1600174498 INFO     Connection Recieved : 8080,127.0.0.1, 57810
+2020-09-15 18:24:1600174499 INFO     Data recieved : 8080, 127.0.0.1, 57810, b''
+2020-09-15 18:25:1600174503 INFO     Connection Recieved : 8080,127.0.0.1, 57814
+2020-09-15 18:26:1600174561 INFO     Connection Recieved : 8080,127.0.0.1, 57832
+2020-09-15 18:26:1600174561 INFO     Data recieved : 8080, 127.0.0.1, 57832, b''
+2020-09-15 18:26:1600174587 INFO     Connection Recieved : 8080,127.0.0.1, 57836
+2020-09-15 18:26:1600174589 INFO     Data recieved : 8080, 127.0.0.1, 57836, b'hello\n'
+2020-09-15 18:26:1600174600 INFO     Connection Recieved : 8080,127.0.0.1, 57840
+2020-09-15 18:26:1600174616 INFO     Connection Recieved : 8080,127.0.0.1, 57844
+2020-09-15 18:27:1600174620 INFO     Data recieved : 8080, 127.0.0.1, 57844, b'hello\n'
+2020-09-15 18:30:1600174859 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:31:1600174875 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:32:1600174931 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:32:1600174939 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:32:1600174961 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
+2020-09-15 18:32:1600174969 INFO     Honeypot running on Ports [8080, 8888, 2222] 
+ logfile is connections.log
