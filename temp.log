@@ -1,0 +1,3 @@
+2020-09-15 21:38:1600186093 INFO     Honeypot initializing...
+2020-09-15 21:38:1600186093 INFO     Ports: [8080, 9001]
+2020-09-15 21:38:1600186093 INFO     Log filepath: temp.log
