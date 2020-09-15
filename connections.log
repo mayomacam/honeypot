@@ -1,0 +1,7 @@
+2020-09-15 19:05:1600176931 INFO     Honeypot initializing...
+2020-09-15 19:05:1600176931 INFO     Ports: [8080, 8888, 2222]
+2020-09-15 19:05:1600176931 INFO     Log filepath: connections.log
+2020-09-15 19:05:1600176951 INFO     Connection received: 2222: 127.0.0.1:46896
+2020-09-15 19:05:1600176954 INFO     Data received: 2222: 127.0.0.1:46896: b'\x1b[A\n'
+2020-09-15 19:05:1600176959 INFO     Connection received: 2222: 127.0.0.1:46904
+2020-09-15 19:06:1600176960 INFO     Data received: 2222: 127.0.0.1:46904: b'hello\n'
