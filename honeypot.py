@@ -20,12 +20,16 @@ class honey(object):
         self.logger.info("Log filepath: %s" % self.log_filepath)
 
     def handle_connection(self, client_socket, port, ip, remote_port):
-        self.logger.info("Connection received: %s: %s:%d" % (port, ip, remote_port))
+        self.logger.info(
+            "Connection received: %s: %s:%d" %
+            (port, ip, remote_port))
 
         client_socket.settimeout(4)
         try:
             data = client_socket.recv(64)
-            self.logger.info("Data received: %s: %s:%d: %s" % (port, ip, remote_port, data))
+            self.logger.info(
+                "Data received: %s: %s:%d: %s" %
+                (port, ip, remote_port, data))
             client_socket.send("Access denied.\n".encode('utf8'))
         except timeout:
             pass
@@ -33,17 +37,21 @@ class honey(object):
 
     def start_new_listener_thread(self, port):
         # Create a new listener
-        listener = socket()  # Defaults (socket.AF_INET, socket.SOCK_STREAM)
+        listener = socket()
         listener.bind((self.bind_ip, int(port)))
+        self.logger.info("Honeypot running on port %d" % (port))
         listener.listen(5)
         while True:
             client, addr = listener.accept()
-            client_handler = threading.Thread(target=self.handle_connection, args=(client, port, addr[0], addr[1]))
+            client_handler = threading.Thread(
+                target=self.handle_connection, args=(
+                    client, port, addr[0], addr[1]))
             client_handler.start()
 
     def start_listening(self):
         for port in self.ports:
-            self.listener_threads[port] = threading.Thread(target=self.start_new_listener_thread, args=(port,))
+            self.listener_threads[port] = threading.Thread(
+                target=self.start_new_listener_thread, args=(port,))
             self.listener_threads[port].start()
 
     def run(self):
@@ -62,5 +70,3 @@ class honey(object):
         console_handler.setLevel(logging.DEBUG)
         logger.addHandler(console_handler)
         return logger
-
-
