@@ -14,10 +14,10 @@ import paramiko
 from paramiko.py3compat import b, u, decodebytes
 
 try:
-    paramiko.util.log_to_file("demo_server.log")
+    paramiko.util.log_to_file("ip.log")
 except:
-    a = open("demo_server.log", "x")
-    paramiko.util.log_to_file("demo_server.log")
+    a = open("ip.log", "x")
+    paramiko.util.log_to_file("ip.log")
 
 class Server(paramiko.ServerInterface):
     def __init__(self):
