@@ -16,3 +16,10 @@
 #### have to work
 - [ ] creating a shell not working
 - [ ] add data related command execution
+
+
+## Hydra and ssh login
+![](./hydra.png)
+
+## nmap
+![](./nmap.png)
