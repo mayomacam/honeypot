@@ -20,8 +20,9 @@ except:
     paramiko.util.log_to_file("ip.log")
 
 class Server(paramiko.ServerInterface):
-    def __init__(self):
+    def __init__(self, auth):
         self.event = threading.Event() 
+        self.auth = auth
         
     '''def get_banner():
         return ("SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2", "en-US")'''
@@ -34,7 +35,7 @@ class Server(paramiko.ServerInterface):
     
     def check_auth_password(self, username, password):
         try:
-            logfile_handle = open("auth.log","a")
+            logfile_handle = open(self.auth ,"a")
             print("New login: " + username + ":" + password)
             logfile_handle.write(username + ":" + password + "\n")
             logfile_handle.close()
@@ -84,8 +85,7 @@ class sshtp(object):
         transport.local_version = "SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2"
         #transport.load_server_moduli()
         transport.add_server_key(host_key)
-        server = Server()
-        print(2)
+        server = Server(self.auth)
         transport.start_server(server=server)
         channel = transport.accept(200)
         if channel is None:
