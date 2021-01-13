@@ -72,10 +72,10 @@ def get_allowed_auths(self, username):
 here we have to choose which one type of auth we consider most.
 if we use
 1. password, publickey
-So it will take password even if we provide private key, this will take privatekey but gonna ask for user password for to complete the auth... This is what we need for honeypot.
+So this will take privatekey but gonna ask for user password for to complete the auth so even in both condition we need password... This is what we need for honeypot.
 
 2. publickey, password
-This will only auth using private key..
+This will only auth using private key and give error in case of password auth.
 
 ## ssh honeypot
 
