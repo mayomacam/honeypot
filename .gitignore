@@ -1,2 +1,2 @@
-temp.log
+*.log
 __pycache__
